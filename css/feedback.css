@@ -58,3 +58,16 @@
 .fa-star-white {
 	color: white;
 }
+
+
+@media (max-width: 769px) {
+	.feeback-tabs {
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		height: 835px;
+	}
+	.feedback-sub {
+		margin: 0 auto;
+	}
+}

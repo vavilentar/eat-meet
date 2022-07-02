@@ -12,3 +12,21 @@
 .menu-title {
 	line-height: 46px;
 }
+
+@media (max-width: 769px) {
+	.menu-img {
+		width: 120px;
+		height: 120px;
+	}
+	.about-us-second{
+		flex-direction: column;
+		height: 680px;
+	}
+	.about-main {
+		align-items: center;
+		text-align: center;
+	}
+	.about-subtitle {
+		margin: 25px 0;
+	}
+}

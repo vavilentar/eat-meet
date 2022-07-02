@@ -10,7 +10,7 @@
 	border-radius: 50% 50% 100% 0% / 100% 100% 0% 0%;
 }
 
-.footer-text{
+.footer-text {
 	text-align: center;
 }
 
@@ -45,4 +45,10 @@
 .footer-social-tab {
 	margin-top: 10px;
 	display: flex;
+}
+
+@media (max-width: 769px) {
+	.footer-title {
+		font-size: 20px;
+	}
 }

@@ -9,3 +9,14 @@
 .about-main{
 	justify-content: space-evenly;
 }
+
+@media (max-width: 769px) {
+	.about-img{
+		width: 350px;
+		height: 350px;
+	}
+	.about-main {
+		justify-content: space-between;
+		height: 350px;
+	}
+}

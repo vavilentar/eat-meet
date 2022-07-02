@@ -1,4 +1,4 @@
-.booking-block-inner__container{
+.booking-block-inner__container {
 	max-width: 1300px;
 	margin: 100px auto;
 	text-align: center;
@@ -15,7 +15,11 @@
 	align-items: center;
 	justify-content: space-evenly;
 }
-.input-name,.input-email,.input-date,.input-phone {
+
+.input-name,
+.input-email,
+.input-date,
+.input-phone {
 	width: 100%;
 	max-width: 200px;
 	height: 60px;
@@ -46,4 +50,14 @@
 	cursor: pointer;
 	font-size: 1em;
 	font-family: 'Open Sans';
+}
+
+@media (max-width: 769px) {
+	.booking-inputs {
+		flex-direction: column;
+	}
+	.inputs-splitter {
+		height: 1px;
+		width: 93px;
+	}
 }

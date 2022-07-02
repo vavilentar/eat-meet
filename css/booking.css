@@ -61,3 +61,13 @@
 		width: 93px;
 	}
 }
+
+@media (max-width: 426px) {
+	.booking-block-inner__container {
+		margin: 50px auto 0px auto;
+	}
+	.booking-title {
+		font-size: 26px;
+		line-height: 30px;
+	}
+}

@@ -20,7 +20,6 @@
 	}
 	.about-us-second{
 		flex-direction: column;
-		height: 680px;
 	}
 	.about-main {
 		align-items: center;
@@ -28,5 +27,15 @@
 	}
 	.about-subtitle {
 		margin: 25px 0;
+	}
+	.menu-second{
+		display: none;
+	}
+}
+
+@media (max-width: 426px) {
+	.menu-title {
+		font-size: 26px;
+		line-height: 28px;
 	}
 }

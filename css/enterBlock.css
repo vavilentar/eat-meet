@@ -51,7 +51,7 @@
 }
 
 .enter-block-img {
-	object-fit:cover;
+	object-fit: cover;
 	width: 500px;
 	height: 500px;
 	border: 5px solid #fff;
@@ -62,14 +62,30 @@
 @media (max-width: 769px) {
 	.enter-block-img {
 		width: 400px;
-    height: 400px;
+		height: 400px;
 	}
+
 	.enter-block_inner {
 		align-items: center;
 		padding: 0 50px;
 	}
+
 	.main-subtitle {
 		width: 250px;
 		margin: 20px 0;
+	}
+}
+
+@media (max-width: 426px) {
+	.enter-block-img {
+		width: 350px;
+		height: 350px;
+	}
+	.enter-block_inner {
+		flex-direction: column;
+		margin: 0px 0px 0px 0px;
+	}
+	.enter-block_main {
+		margin: 10px auto 20px auto;
 	}
 }

@@ -1,0 +1,48 @@
+.footer-inner__container {
+	max-width: 1300px;
+	margin: 0 auto;
+	display: flex;
+	background-color: rgb(255, 140, 74);
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 300px;
+	border-radius: 50% 50% 100% 0% / 100% 100% 0% 0%;
+}
+
+.footer-text{
+	text-align: center;
+}
+
+.footer-subtitle {
+	font-size: 22px;
+	color: #000000;
+}
+
+.footer-title {
+	font-size: 28px;
+	color: white;
+	margin: 20px 0;
+
+}
+
+.efir-social-footer {
+	display: flex;
+	flex-direction: column;
+}
+
+.efir-social-footer img {
+	width: 50px;
+	filter: drop-shadow(0px 0px 3px #222);
+}
+
+.efir-social-footer img:hover {
+	transition: filter .5s ease;
+	width: 50px;
+	filter: drop-shadow(0px 0px 5px rgb(255, 255, 255));
+}
+
+.footer-social-tab {
+	margin-top: 10px;
+	display: flex;
+}

@@ -1,0 +1,60 @@
+.feeback-tabs {
+	margin: 50px 0 100px 0;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.tab {
+	height: 249px;
+	width: 383px;
+	position: relative;
+	border: 5px solid #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+
+}
+
+.feedback-img-name {
+	display: flex;
+	padding: 0px 20px 0 20px;
+	align-items: center;
+}
+
+.feedback-name {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.feedback-text {
+	height: 115px;
+	width: 343px;
+}
+
+.f-text {
+	font-size: 16px;
+	font-weight: 400;
+	color: #717171;
+	padding: 0 20px 0 20px;
+	line-height: 29px;
+}
+
+.feedback-stars {
+	position: absolute;
+	height: 42px;
+	width: 186px;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: -30px;
+}
+
+.fa-star {
+	color: #717171;
+}
+
+.fa-star-white {
+	color: white;
+}

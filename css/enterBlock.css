@@ -1,0 +1,60 @@
+.enter-block_inner {
+	margin: 50px auto;
+
+}
+
+.enter-block_inner__container {
+	max-width: 1300px;
+	display: flex;
+	justify-content: space-evenly;
+	cursor: default;
+}
+
+.enter-block_main {
+	max-width: 500px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+
+.logotype-img {
+	width: 30%;
+}
+
+.main-title {
+	font-size: 65px;
+	font-weight: 600;
+}
+
+.main-subtitle {
+	margin-top: 15px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #6D6D6D;
+}
+
+.book_btn {
+	height: 56px;
+	width: 189px;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: 600;
+	font-family: 'Open Sans';
+	background: #e5502e;
+	color: white;
+	cursor: pointer;
+}
+
+.enter-block_second {
+	max-width: 500px;
+}
+
+.enter-block-img {
+	object-fit:cover;
+	width: 500px;
+	height: 500px;
+	border: 5px solid #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+}

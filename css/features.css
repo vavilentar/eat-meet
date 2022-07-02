@@ -1,0 +1,40 @@
+.main-inner__container {
+	max-width: 1300px;
+	margin: 100px auto;
+}
+
+.features-inner {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.feature {
+	text-align: left;
+	width: 300px;
+}
+
+.feature-num {
+	font-size: 50px;
+	font-weight: 700;
+	color: #D2D2D285;
+}
+
+.feature-title {
+	font-size: 22px;
+	font-weight: 600;
+	color: #e5502e;
+}
+
+.feature-descr {
+	font-size: 16px;
+	font-weight: 300;
+	color: #3a3a3a;
+
+}
+
+.splitter {
+	width: 1px;
+	height: 93px;
+	background-color: #e5502ea2;
+}

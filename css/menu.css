@@ -1,0 +1,14 @@
+.menu-img {
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+}
+
+.menu-second {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.menu-title {
+	line-height: 46px;
+}
